@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+*.pkl
+*.joblib
+
+# Datasets
+*.csv
+
+# System files
+.DS_Store
