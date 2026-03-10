@@ -6,6 +6,18 @@ The goal is to identify customers at risk of leaving so banks can implement targ
 
 ---
 
+## Dataset
+
+The dataset used in this project is publicly available on Kaggle.
+
+Download it here:
+
+https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction
+
+After downloading, place **Churn_Modelling.csv** inside the project folder before running the notebook.
+
+---
+
 ## Dataset Overview
 
 The dataset contains information about **10,000 bank customers** and whether they exited the bank.
@@ -32,15 +44,15 @@ Exited
 
 ## Project Workflow
 
-1. Data Inspection
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Train-Test Split
-6. Feature Scaling
-7. Model Training
-8. Model Evaluation
-9. Feature Importance Analysis
+1. Data Inspection  
+2. Data Cleaning  
+3. Exploratory Data Analysis (EDA)  
+4. Feature Engineering  
+5. Train-Test Split  
+6. Feature Scaling  
+7. Model Training  
+8. Model Evaluation  
+9. Feature Importance Analysis  
 
 ---
 
@@ -89,23 +101,29 @@ The most important features influencing customer churn were:
 - Seaborn
 
 ---
+## How to Run
 
-## Model File
+1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+2. Download the dataset from Kaggle.
 
-The trained Random Forest model is saved as:
+3. Place **Churn_Modelling.csv** in the project folder.
 
-models/churn_prediction_model.pkl
-This allows the model to be reused without retraining.
-
+4. Run the notebook:
+```
+jupyter notebook "Bank Customer Churn.ipynb"
+```
 ---
-
 ## Conclusion
 
-Machine learning models can help financial institutions identify high-risk customers and develop strategies to improve customer retention.
+Machine learning models can help financial institutions identify high-risk customers and design targeted retention strategies.
 
 Random Forest achieved the best performance with **87% accuracy**.
 
 ---
 
 ## Author
+
 Joemon
